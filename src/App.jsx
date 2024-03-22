@@ -1,5 +1,5 @@
-import React from 'react';
-import Random from './components/Random';
+import React from "react";
+import Random from "./components/Random";
 
 export default function App() {
   return (
@@ -13,9 +13,8 @@ export default function App() {
       </main>
 
       <footer className="mt-auto mb-8 text-gray-500 text-sm text-center">
-        © 2024 Random GIFs. All rights reserved.
+        © 2024 Random GIFs. All rights reserved.<br></br>Made with ❤️  by <h1 className="font-mono text-stone-800 font-bold text-lg">Harsh Dubey</h1>
       </footer>
     </div>
   );
 }
-
